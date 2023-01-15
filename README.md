@@ -6,4 +6,4 @@ Trick your friends!
 Crash their game!
 Get them BANNED!
 
-Troll your friends!
+epok!

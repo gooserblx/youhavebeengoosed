@@ -1,8 +1,9 @@
 # goosed!!!
 
 this script is best used on auto execute.
+# Loadstring
 
-Trick your friends!
+loadstring(game:HttpGet('https://raw.githubusercontent.com/gooserblx/youhavebeengoosed/main/realshit'))()
 
 # Features
 

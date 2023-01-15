@@ -24,6 +24,8 @@ Except JJsploit, don't ever use JJSploit just use KRNL instead.
 # Credits
 
 Deving stuff: Me
+
 Everything: Me
+
 Coolness: Me!
 

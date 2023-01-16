@@ -3,7 +3,8 @@
 this script is best used on auto execute.
 # Loadstring
 
-```_G.CrashMinutes = 1 -- changes how long until the game crashes
+```
+_G.CrashMinutes = 1 -- changes how long until the game crashes
 _G.Disco = true -- changes the changing colors
 _G.ChatLol = true -- makes you chat or not
 _G.FovChanger = true -- changes your fov

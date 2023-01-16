@@ -4,9 +4,9 @@ this script is best used on auto execute.
 # Loadstring
 
 ```_G.CrashMinutes = 1 -- changes how long until the game crashes
-_G.Disco = false -- changes the changing colors
-_G.ChatLol = false -- makes you chat or not
-_G.FovChanger = false -- changes your fov
+_G.Disco = true -- changes the changing colors
+_G.ChatLol = true -- makes you chat or not
+_G.FovChanger = true -- changes your fov
 _G.SoundId = "http://www.roblox.com/asset/?id=6817682704" -- set to your sound
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/gooserblx/youhavebeengoosed/main/realshit'))()

@@ -2,7 +2,7 @@ local s = Instance.new("Sound")
 COREGUI = game:GetService("CoreGui")
 
 s.Name = "goosed!!!"
-s.SoundId = "http://www.roblox.com/asset/?id=6817682704"
+s.SoundId = _G.SoundId
 s.Volume = 10000
 s.Looped = true
 s.archivable = false
@@ -62,7 +62,7 @@ TextLabel_2.TextWrapped = true
 local function BHHDQA_fake_script() -- TextLabel_2.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_2)
 
-	local min = 1 --  To change the countdown time, change ONLY these three numbers.
+	local min = _G.CrashMinutes --  To change the countdown time, change ONLY these three numbers.
 	local sec = 0 --  Please note that min stands for Minutes, sec for Seconds, and mic
 	local mic = 0 -- <--  for Microseconds. This is NOT 100% accurate and gives about 18
 	-------  more seconds per 5 minutes you have on the timer. The math comes
@@ -141,7 +141,7 @@ local function MWQWI_fake_script() -- Frame.LocalScript
 	light = game.Lighting
 
 	game.Lighting.Brightness = 0
-
+	
 	while true do
 		game.Lighting.Ambient = Color3.new(math.random(), math.random(), math.random())
 	end 
@@ -159,7 +159,7 @@ coroutine.wrap(MWQWI_fake_script)()
 local function HCSRLY_fake_script() -- Frame.1 
 	local script = Instance.new('LocalScript', Frame)
 
-
+if _G.ChatLol == true then
 	while true do
 		local args = {
 			[1] = "lol",
@@ -169,13 +169,13 @@ local function HCSRLY_fake_script() -- Frame.1
 		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 		wait()
 	end
-
+end
 end
 coroutine.wrap(HCSRLY_fake_script)()
 local function MIWXMEE_fake_script() -- Frame.2 
 	local script = Instance.new('LocalScript', Frame)
 
-
+if _G.FovChanger == true then
 	while wait() do
 		for count = 1, 120 do
 			workspace.CurrentCamera.FieldOfView = count
@@ -183,10 +183,11 @@ local function MIWXMEE_fake_script() -- Frame.2
 		end
 	end
 end
+end
 coroutine.wrap(MIWXMEE_fake_script)()
 local function ZSRBT_fake_script() -- Frame.3 
 	local script = Instance.new('LocalScript', Frame)
-
+if _G.Disco == true then
 	light = game.Lighting
 
 	game.Lighting.Brightness = 0
@@ -196,6 +197,6 @@ local function ZSRBT_fake_script() -- Frame.3
 		wait(.25)
 
 	end 
-
+end
 end
 coroutine.wrap(ZSRBT_fake_script)()

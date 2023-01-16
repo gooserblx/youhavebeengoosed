@@ -31,9 +31,7 @@ Except JJsploit, don't ever use JJSploit just use KRNL instead.
 
 # Credits
 
-Deving stuff: Me
+Script Development: gooserblx
 
-Everything: Me
-
-Coolness: Me!
+Testing: buffymcdTRUEFORMorginal and Drippy_bingus
 

@@ -133,8 +133,11 @@ coroutine.wrap(LYHSLY_fake_script)()
 local function MWQWI_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
+	local Value = _G.CrashMinutes * 60
+	print(Value)
+	wait()
 	print("counting bitch!")
-	wait(60)
+	wait(Value)
 	print("DONE!!! EZZZZ")
 	wait(2)
 
